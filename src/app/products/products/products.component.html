@@ -1,1 +1,6 @@
-<p>products works!</p>
+<div *ngFor="let product of (products | async)">
+  <!-- Products needs the async because they are objects?? -->
+  <!-- async subscribes and loads the html -->
+  <img src="{{product.imgUrl}}"><br>
+  {{product.name}}
+</div>

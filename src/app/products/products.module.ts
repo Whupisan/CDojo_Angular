@@ -7,9 +7,11 @@ import { CommonModule } from '@angular/common';
 
 import { ProductsRoutingModule } from './products-routing.module';
 import { ProductsComponent } from './products/products.component';
+import { ProductDataService } from './product-data.service';
 
 
 @NgModule({
+  providers: [ProductDataService],
   declarations: [ProductsComponent],
   imports: [
     CommonModule,
