@@ -1,0 +1,9 @@
+.headerbtns {
+  font-size: large;
+  border-radius: 6px;
+  margin: 0px 6px;
+}
+
+.router-link-active {
+  background-color: rgb(241, 220, 101);
+}
